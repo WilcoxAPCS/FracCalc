@@ -1,2 +1,2 @@
 # FracCalc
-FracCalc Project
+FracCalc Project v1.2.0
