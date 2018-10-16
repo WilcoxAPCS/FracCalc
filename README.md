@@ -105,12 +105,15 @@ the first operand (fraction), the operator (+ - * /), and the second operand
 ### Checkpoint 2: Multiple lines of input, parsing fractions
 * Your `main()` method now accepts input from the user multiple times (until the user
 types `"quit"`).
+
 * For each line of input, `main()` calls `produceAnswer()` and prints the returned
 result.
+
 * This time, `produceAnswer()` must further parse each operand into 3 `int`
 variables, one each for the numerator, denominator, and whole portion (for mixed
 fractions or integers). Note that there are cases where not all 3 of these components
 are present (see below).
+
 * `produceAnswer()` now must demonstrate you have parsed fractions properly by
 returning a string that describes each component of the second operand: the whole
 number portion (or 0 if not specified), the numerator (or 0 if not specified), and
@@ -118,10 +121,13 @@ the denominator (or 1 if not specified). Examples:
     * `produceAnswer("5_3/4 - 6_5/8")` returns `"whole:6 numerator:5 denominator:8"`
     * `produceAnswer("-3/7 - 20")` returns `"whole:20 numerator:0 denominator:1"`
     * `produceAnswer("-32-27/21")` returns `"whole:0 numerator:27 denominator:21"`
+    
 * Your spelling, casing, and spacing must match these examples exactly, or the tests
 will fail and you will not receive full credit.
+
 * `produceAnswer()` must parse both operands even though the returned `String`
 describes only the second one.
+
 * Your code passes all tests in `FracCalcTestCheckpoint2.java`.
 
 ### Checkpoint 3: Evaluation
@@ -129,19 +135,24 @@ describes only the second one.
 subtraction, multiplication, and division, based on the operator specified), and
 return the actual answer of that calculation (instead of just returning the second
 operand).
+
 * The answer need not be reduced, and need not be a mixed fraction. But it must be
 correct.
+
 * All kinds of input values the user might enter must be accepted, including simple
 fractions, improper fractions, mixed fractions, and integers.
+
 * Your code passes all tests in `FracCalcTestCheckpoint3.java`.
 
 ### Final Submission: All requirements complete
 * All answers must be reduced.
+
 * Your code passes all tests in `FracCalcTestFinal.java`.
 
 ### Extra Credit
 **Do not spend time on extra credit until you have everything else working
 properly.**
+
 #### Multiple Operations
 This extra credit will be awarded for calculators that can take in arbitrarily many
 values and operators. This will only be tested with compatible operations such that
