@@ -11,4 +11,12 @@ You can refer to the
 on how to upload changes to GitHub.
 
 ## Testing Code
-TODO
+
+### Running Unit Tests
+In Eclipse, right click on the appropriate test file (`FracCalcTestCheckpoint1.java`
+for checkpoint 1, etc.). Choose Run As > JUnit Test. This will run set of tests
+called unit tests to check that your code works. Any errors will be printed in red
+in the console. **Your code must pass all unit tests for the checkpoint in order
+receive full credit.** Note that these unit tests only cover a small set of possible
+inputs and **you should not assume that your code works just because they pass.**
+**It is your responsibility to determine if your code will work in all cases.**
