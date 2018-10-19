@@ -120,7 +120,7 @@ number portion (or 0 if not specified), the numerator (or 0 if not specified), a
 the denominator (or 1 if not specified). Examples:
     * `produceAnswer("5_3/4 - 6_5/8")` returns `"whole:6 numerator:5 denominator:8"`
     * `produceAnswer("-3/7 - 20")` returns `"whole:20 numerator:0 denominator:1"`
-    * `produceAnswer("-32-27/21")` returns `"whole:0 numerator:27 denominator:21"`
+    * `produceAnswer("-32 - 27/21")` returns `"whole:0 numerator:27 denominator:21"`
     
 * Your spelling, casing, and spacing must match these examples exactly, or the tests
 will fail and you will not receive full credit.
