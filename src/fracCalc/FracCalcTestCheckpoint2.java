@@ -9,5 +9,7 @@ public class FracCalcTestCheckpoint2
     @Test public void testCheckpoint2_2() {  FracCalcTestALL.assertForEarlyCheckpoints(null, "whole:20 numerator:0 denominator:1", "-20_3/7", FracCalc.produceAnswer("-3/7 - 20"));}
     @Test public void testCheckpoint2_3() {  FracCalcTestALL.assertForEarlyCheckpoints(null, "whole:0 numerator:27 denominator:21", "-33_2/7", FracCalc.produceAnswer("-32 - 27/21"));}
 
-
+  public static void main(String[] args) {
+    org.junit.runner.JUnitCore.main("fracCalc.FracCalcTestCheckpoint2");
+  }
 }
