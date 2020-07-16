@@ -1,2 +1,2 @@
 language = "java10"
-run = "java src/fracCalc/FracCalc.java"
+run = "javac -classpath .:/run_dir/junit-4.12.jar:/home/runner/FracCalc/FracCalcTestHelper.jar -d . src/fracCalc/*.java;java -classpath .:/run_dir/junit-4.12.jar:/home/runner/FracCalc/FracCalcTestHelper.jar fracCalc.FracCalc"
