@@ -1,2 +1,2 @@
 language = "java10"
-run = "javac -classpath .:/run_dir/hamcrest-core-1.3.jar:/run_dir/junit-4.12.jar:FracCalcTestHelper.jar -d . src/fracCalc/*.java;java -classpath .:/run_dir/hamcrest-core-1.3.jar:/run_dir/junit-4.12.jar:FracCalcTestHelper.jar fracCalc.FracCalc"
+run = "clear;rm fracCalc/*.class;javac -classpath .:/run_dir/hamcrest-core-1.3.jar:/run_dir/junit-4.12.jar:FracCalcTestHelper.jar -d . src/fracCalc/*.java;java -classpath .:/run_dir/hamcrest-core-1.3.jar:/run_dir/junit-4.12.jar:FracCalcTestHelper.jar fracCalc.$RUNCLASS"
